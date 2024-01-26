@@ -1,0 +1,162 @@
+a {
+  color:#1558d6;
+  font-size: 18px;
+  text-decoration:none;
+}
+/*--PC--*/
+@media only screen and (min-width: 650px) {
+  body {
+    margin: 0 auto;
+    max-width:450px;
+  }
+}
+
+/*--MOBILE--*/
+@media only screen and (max-width: 650px) {
+  body {
+    margin: 0 14px;
+  }
+}
+/*--サムネイルボックス--*/
+  .thumbnail-box {
+    display: flex;
+    height: 100px;
+    margin: 0 0 1.5em 0;
+  }
+
+  .thumbnail-box img{
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .thumbnail-box-title{
+    width: 70%;
+  }
+
+/*--引用--*/
+  .quote {
+    background-color: #f2f6fc;
+    border-left: 4px solid #89c3eb;
+    color: #333333;
+    padding: 1.5em 1em 1.5em 1.5em;
+    margin: 0 0 1.5em 0;
+    
+  }
+
+  .quote p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .quote cite {
+    display: block;
+    color: #737373;
+    font-size: .8em;
+    text-align: right;
+  }
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: "segoe UI", 'Noto Sans JP', "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, "メイリオ", Meiryo, sans-serif;
+  letter-spacing: .01em;
+  word-wrap: break-word;
+}
+
+ div, h1, h2, p, footer, header {
+  background: transparent;
+  vertical-align: baseline;
+}
+
+.form-input {
+  display: block;
+  margin:0 0 10px 0;
+  font-size: 18px;
+}
+
+input#load {
+  display: block;
+  font-size:18px;
+  margin-left:auto;
+}
+
+input[type="text"] {
+  font-size:18px;
+} 
+.input-search{
+  display: block;
+  font-size:16px;
+  margin:5px 0;
+  max-width: 650px;
+  padding:2%; 
+  width: 96%;
+}
+
+label {
+  display: block;
+}
+
+ol {
+  padding:0 0 0 20px;
+}
+
+span.category-eyebrow__date{
+  color: #6e6e73;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.table-wrap {
+  overflow-x: scroll;
+}
+
+td{
+  border-right:2px solid #e7e7e7;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}
+
+textarea{
+  display: block;
+  font-family: sans-serif;
+  font-size:16px;
+  margin:5px 0;
+  max-width: 650px;
+  padding:2%; 
+  width: 96%;
+}
+
+#header { 
+  padding: 30px 0 20px 0;
+}
+
+#container {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 18px;
+  margin:2em 0 1em 0;
+}
+
+p {
+  color: #3c4043;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 1.5em 0;
+}
+
+#footer {
+  text-align: center;
+}
